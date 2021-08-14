@@ -36,3 +36,102 @@
     transform: rotate(360deg);
   }
 }
+
+.fp-viewing-0 #fp-nav ul li a span{
+  background: #EBEBE3;
+}
+.fp-viewing-1 #fp-nav ul li a span{
+  background: #EBEBE3;
+}
+.fp-viewing-2 #fp-nav ul li a span{
+  background: #254666;
+}
+.fp-viewing-3 #fp-nav ul li a span{
+  background: #EBEBE3;
+}
+
+.fp-viewing-0 #fp-nav ul li .fp-tooltip {
+  color: #EBEBE3 !important
+}
+.fp-viewing-1 #fp-nav ul li .fp-tooltip {
+  color: #EBEBE3 !important
+}
+.fp-viewing-2 #fp-nav ul li .fp-tooltip {
+  color: #254666 !important
+}
+.fp-viewing-3 #fp-nav ul li .fp-tooltip {
+  color: #EBEBE3 !important
+}
+
+.fp-viewing-0 .icon svg {
+  color: #EBEBE3;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+.fp-viewing-1 .icon svg {
+  color: #EBEBE3;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+.fp-viewing-2 .icon svg {
+  color: #254666;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+.fp-viewing-3 .icon svg {
+  color: #EBEBE3;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+.fp-viewing-0 .links {
+  border-right: 1px solid #EBEBE3;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+.fp-viewing-1 .links {
+  border-right: 1px solid #EBEBE3;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+.fp-viewing-2 .links {
+  border-right: 1px solid #254666;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+.fp-viewing-3 .links {
+  border-right: 1px solid #EBEBE3;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+
+.fp-viewing-0 .vertical-text {
+  color: #EBEBE3;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+.fp-viewing-1 .vertical-text{
+  color: #EBEBE3;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+.fp-viewing-2 .vertical-text{
+  color: #254666;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+.fp-viewing-3 .vertical-text{
+  color: #EBEBE3;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+
+.fp-viewing-0 .resume-line {
+  border-left: 1px solid #EBEBE3;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+.fp-viewing-1 .resume-line {
+  border-left: 1px solid #EBEBE3;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+.fp-viewing-2 .resume-line {
+  border-left: 1px solid #254666;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+.fp-viewing-3 .resume-line {
+  border-left: 1px solid #EBEBE3;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
