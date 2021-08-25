@@ -52,13 +52,18 @@ const Experience = () => {
                       with similarly skilled players around you
                     </Card.Text>
                     <Card.Text>
-                      ○ Solely developed the entire frontend and backend of the product. Co-designed the product with partner
+                      ○ Solely developed the product's frontend with
+                      Swift/SwiftUI and backend with Java/Spring. Co-designed
+                      the product with partner
                     </Card.Text>
                     <Card.Text>
-                      ○ Continuously implemented new features and fixed bugs to the 500+ users
+                      ○ Utilized Firebase authentication to authenticate users,
+                      Websockets for real time chat, PostgreSQL for the
+                      database, and AWS S3 for image storage
                     </Card.Text>
                     <Card.Text>
-                      ○ Utilizied technologies such as: Java/Spring, Swift/SwiftUI, Firebase, Websockets, AWS
+                      ○ Continuously implemented new features and fixed bugs to
+                      the 500+ users
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -74,7 +79,9 @@ const Experience = () => {
                     </Card.Subtitle>
                     <Card.Text>
                       ○ Developed an internal product to provide secure
-                      application deployment across the enterprise
+                      application deployment across the enterprise comprised of
+                      a Java/Spring backend, ReactJS frontend, and MSSQL
+                      database
                     </Card.Text>
                     <Card.Text>
                       ○ Simplified security across the enterprise by providing
@@ -82,8 +89,8 @@ const Experience = () => {
                       applications from third-party vendors
                     </Card.Text>
                     <Card.Text>
-                      ○ Built using the technologies: Java/Spring, React/JS,
-                      MSSQL, Kubernetes
+                      ○ Lead the work on the image scanning microservice tool
+                      and used kubernetes for deployment
                     </Card.Text>
                   </Card.Body>
                 </Card>

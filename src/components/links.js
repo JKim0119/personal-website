@@ -2,13 +2,13 @@ import React from "react";
 import "./components.css";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { FaGithub, FaEnvelope, FaLinkedin } from "react-icons/fa";
-import resume from "../forms/resume_JKim.pdf";
+import resume from "../forms/resume.pdf";
 
 const Links = () => {
   return (
     <div>
       <Container className="container-link-top" fluid>
-        <Row className="links"></Row>
+        <Row className="icon-line"></Row>
         <Row className="icon">
           <Col></Col>
           <Col xs="auto">

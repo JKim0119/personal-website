@@ -178,7 +178,7 @@
   transform: translate3d(0,0,0);
 }
 
-.links {
+.icon-line {
   height: 100px;
   margin-right: 8px !important;
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
@@ -195,6 +195,7 @@
   z-index: 999;
   right: 1%;
   top: 0;
+  pointer-events: none;
 }
 
 .container-link-bottom {
@@ -209,8 +210,7 @@
 }
 
 .icon svg:hover {
-  opacity: 0.3;
-  color: #000000;
+  opacity: 0.5;
   transform: scale(1.5);
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
@@ -225,8 +225,8 @@
 .vertical-text:hover {
   transform: rotate(-90deg) scale(1.2);
   transform-origin: left top;
-  opacity: 0.3;
-  color: #1F2020;
+  opacity: 0.5;
+  /* color: #1F2020; */
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
 }
@@ -234,4 +234,5 @@
 a {
   color: inherit !important; /* blue colors for links too */
   text-decoration: inherit !important; /* no underline */
+  pointer-events: auto;
 }

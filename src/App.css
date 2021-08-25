@@ -83,19 +83,19 @@
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
 
-.fp-viewing-0 .links {
+.fp-viewing-0 .icon-line {
   border-right: 1px solid #EBEBE3;
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
-.fp-viewing-1 .links {
+.fp-viewing-1 .icon-line {
   border-right: 1px solid #EBEBE3;
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
-.fp-viewing-2 .links {
+.fp-viewing-2 .icon-line {
   border-right: 1px solid #254666;
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
-.fp-viewing-3 .links {
+.fp-viewing-3 .icon-line {
   border-right: 1px solid #EBEBE3;
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
