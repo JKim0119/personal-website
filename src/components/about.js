@@ -17,7 +17,7 @@ const About = () => {
               </h2>
               <div className="aboutMe-text__container">
                 <h6>
-                  Hello! My name is Jacob and I am a full stack software
+                  Hello! My name is Jacob and I am a software
                   engineer based out of Chicago.
                 </h6>
                 <h6>

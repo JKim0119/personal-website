@@ -21,16 +21,19 @@ const Experience = () => {
           <Col xs="10" md="7">
             <Nav variant="pills" className="flex-row">
               <Nav.Item>
-                <Nav.Link eventKey="first">Docusign</Nav.Link>
+                <Nav.Link eventKey="first">Adyen</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="second">Alley</Nav.Link>
+                <Nav.Link eventKey="second">Docusign</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="third">Allstate</Nav.Link>
+                <Nav.Link eventKey="third">Alley</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="fourth">IBM</Nav.Link>
+                <Nav.Link eventKey="fourth">Allstate</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link eventKey="fifth">IBM</Nav.Link>
               </Nav.Item>
             </Nav>
           </Col>
@@ -44,10 +47,31 @@ const Experience = () => {
                 <Card>
                   <Card.Body>
                     <Card.Title className="rose-gold">
-                      Software Engineer
+                      Software Engineer II
                     </Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">
-                      Nov 2021 - Present
+                      April 2024 - Present
+                    </Card.Subtitle>
+                    <Card.Text>
+                      ○ Led the development of an integration to allow money transfers in Icelandic Krona
+                    </Card.Text>
+                    <Card.Text>
+                      ○ Contributed to the U.S payment rails, processing over $1 billion in daily transfers per day
+                    </Card.Text>
+                    <Card.Text>
+                      ○ Designed and implemented Confirmation Of Payee integration, imrpoving fraud prevention and payment accuracy
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Tab.Pane>
+              <Tab.Pane eventKey="second">
+                <Card>
+                  <Card.Body>
+                    <Card.Title className="rose-gold">
+                      Software Engineer II
+                    </Card.Title>
+                    <Card.Subtitle className="mb-2 text-muted">
+                      Nov 2021 - April 2024
                     </Card.Subtitle>
                     <Card.Text>
                       ○ Enhanced user satisfaction by implementing real-time sorting for search 
@@ -66,7 +90,7 @@ const Experience = () => {
                   </Card.Body>
                 </Card>
               </Tab.Pane>
-              <Tab.Pane eventKey="second">
+              <Tab.Pane eventKey="third">
                 <Card>
                   <Card.Body>
                     <Card.Title className="rose-gold">
@@ -93,7 +117,7 @@ const Experience = () => {
                   </Card.Body>
                 </Card>
               </Tab.Pane>
-              <Tab.Pane eventKey="third">
+              <Tab.Pane eventKey="fourth">
                 <Card>
                   <Card.Body>
                     <Card.Title className="rose-gold">
@@ -120,7 +144,7 @@ const Experience = () => {
                   </Card.Body>
                 </Card>
               </Tab.Pane>
-              <Tab.Pane eventKey="fourth">
+              <Tab.Pane eventKey="fifth">
                 <Card>
                   <Card.Body>
                     <Card.Title className="rose-gold">
