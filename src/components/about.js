@@ -35,13 +35,13 @@ const About = () => {
                     <h6>○ JS/React</h6>
                   </Col>
                   <Col xs="6" md="4">
+                    <h6>○ C#/.NET</h6>
+                  </Col>
+                  <Col xs="6" md="4">
                     <h6>○ Python</h6>
                   </Col>
                   <Col xs="6" md="4">
                     <h6>○ AWS</h6>
-                  </Col>
-                  <Col xs="6" md="4">
-                    <h6>○ Firebase</h6>
                   </Col>
                   <Col xs="6" md="4">
                     <h6>○ Git</h6>
@@ -53,7 +53,7 @@ const About = () => {
                     <h6>○ PostgreSQL</h6>
                   </Col>
                   <Col>
-                    <h6>○ DynamoDB</h6>
+                    <h6>○ Firebase</h6>
                   </Col>
                 </Row>
               </div>

@@ -21,13 +21,16 @@ const Experience = () => {
           <Col xs="10" md="7">
             <Nav variant="pills" className="flex-row">
               <Nav.Item>
-                <Nav.Link eventKey="first">Alley</Nav.Link>
+                <Nav.Link eventKey="first">Docusign</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="second">Allstate</Nav.Link>
+                <Nav.Link eventKey="second">Alley</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="third">IBM</Nav.Link>
+                <Nav.Link eventKey="third">Allstate</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link eventKey="fourth">IBM</Nav.Link>
               </Nav.Item>
             </Nav>
           </Col>
@@ -41,34 +44,56 @@ const Experience = () => {
                 <Card>
                   <Card.Body>
                     <Card.Title className="rose-gold">
+                      Software Engineer
+                    </Card.Title>
+                    <Card.Subtitle className="mb-2 text-muted">
+                      Nov 2021 - Present
+                    </Card.Subtitle>
+                    <Card.Text>
+                      ○ Enhanced user satisfaction by implementing real-time sorting for search 
+                      results and introducing advanced filtering options for reporting, 
+                      resulting in improved user engagement
+                    </Card.Text>
+                    <Card.Text>
+                      ○ Led the development of a collection of specialized reports, 
+                      utilizing document attributes and significantly improving data accessibility, 
+                      which contributed to increased client retention
+                    </Card.Text>
+                    <Card.Text>
+                      ○ Streamlined the integration of automation testing into multiple deployment pipelines, 
+                      improving the bug-catching process and overall testing effectiveness
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Tab.Pane>
+              <Tab.Pane eventKey="second">
+                <Card>
+                  <Card.Body>
+                    <Card.Title className="rose-gold">
                       Co-Founder & CTO
                     </Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">
                       Jan 2021 - Present
                     </Card.Subtitle>
                     <Card.Text>
-                      ○ Worked with one partner to modernize tennis and create a
-                      platform that makes it easy to find, interact, and compete
-                      with similarly skilled players around you
+                      ○ Led the modernization of tennis by co-designing and developing a platform 
+                      that connects and facilitates competition among players of similar skill levels, 
+                      fostering a thriving community of over 500 users
                     </Card.Text>
                     <Card.Text>
-                      ○ Solely developed the product's frontend with
-                      Swift/SwiftUI and backend with Java/Spring. Co-designed
-                      the product with partner
+                      ○ Utilized advanced technologies including Firebase for user authentication, 
+                      Websockets for real-time chat, PostgreSQL for efficient data management, 
+                      and AWS S3 for streamlined image storage to create a robust and responsive platform
                     </Card.Text>
                     <Card.Text>
-                      ○ Utilized Firebase authentication to authenticate users,
-                      Websockets for real time chat, PostgreSQL for the
-                      database, and AWS S3 for image storage
-                    </Card.Text>
-                    <Card.Text>
-                      ○ Continuously implemented new features and fixed bugs to
-                      the 500+ users
+                      ○ Managed agile development cycles, consistently delivering new features and 
+                      addressing user-reported issues, resulting in a rapidly growing user base and 
+                      high levels of user satisfaction
                     </Card.Text>
                   </Card.Body>
                 </Card>
               </Tab.Pane>
-              <Tab.Pane eventKey="second">
+              <Tab.Pane eventKey="third">
                 <Card>
                   <Card.Body>
                     <Card.Title className="rose-gold">
@@ -78,24 +103,24 @@ const Experience = () => {
                       Sep 2019 - Jan 2021
                     </Card.Subtitle>
                     <Card.Text>
-                      ○ Developed an internal product to provide secure
-                      application deployment across the enterprise comprised of
-                      a Java/Spring backend, ReactJS frontend, and MSSQL
-                      database
+                      ○ Designed and developed an in-house solution for secure application deployment 
+                      across the enterprise, featuring a Java/Spring backend, ReactJS frontend, and MSSQL 
+                      database to ensure robust and efficient deployment processes
                     </Card.Text>
                     <Card.Text>
-                      ○ Simplified security across the enterprise by providing
-                      an internal scanning tool that integrates with security
-                      applications from third-party vendors
+                      ○ Streamlined enterprise-wide security by creating an internal scanning tool that 
+                      seamlessly integrates with third-party security applications, enhancing overall 
+                      security posture and reducing vulnerabilities
                     </Card.Text>
                     <Card.Text>
-                      ○ Lead the work on the image scanning microservice tool
-                      and used kubernetes for deployment
+                      ○ Led the development of an image scanning microservice tool and orchestrated 
+                      its deployment using Kubernetes, facilitating efficient and scalable image 
+                      scanning capabilities within the organization
                     </Card.Text>
                   </Card.Body>
                 </Card>
               </Tab.Pane>
-              <Tab.Pane eventKey="third">
+              <Tab.Pane eventKey="fourth">
                 <Card>
                   <Card.Body>
                     <Card.Title className="rose-gold">
@@ -105,22 +130,14 @@ const Experience = () => {
                       Jul 2018 - Sep 2019
                     </Card.Subtitle>
                     <Card.Text>
-                      ○ Optimized circuit design using Cadence and IBM tools to
-                      improve timing of chip from 5 GHz to 5.4 GHz
+                      ○ Boosted efficiency by reducing simulation run times for chip design 
+                      by over 10% through the analysis of historical chip data using Python 
+                      and the provision of optimized inputs
                     </Card.Text>
                     <Card.Text>
-                      ○ Saved more than 10% for run time on simulations of chip
-                      design by analyzing previous chip data using Python and
-                      providing better inputs
-                    </Card.Text>
-                    <Card.Text>
-                      ○ Provided insight on the current state of chip to
-                      management by creating visuals of the chip data using
-                      Python
-                    </Card.Text>
-                    <Card.Text>
-                      ○ Mentored an intern on a project for data visualization
-                      and organizing simulated chip data using mongoDB
+                      ○ Mentored an intern in a data visualization project, 
+                      focusing on the organization of simulated chip data using MongoDB, 
+                      fostering skill development and knowledge transfer within the team
                     </Card.Text>
                   </Card.Body>
                 </Card>

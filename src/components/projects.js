@@ -22,50 +22,56 @@ const Projects = () => {
         <Col></Col>
         <Col className="project" md="3">
           <p></p>
-          <a href="https://apps.apple.com/us/app/alley-find-tennis-partners/id1551859722" target="_blank" className="hovereffect">
+          <div target="_blank" className="hovereffect">
             <Image src={alley} className="rounded " fluid />
-            <a href="https://apps.apple.com/us/app/alley-find-tennis-partners/id1551859722" target="_blank" className="overlay">
-              <h2>Alley</h2>
-              <p>
-                An iOS App to find other similarly skilled tennis players nearby.
-              </p>
-              <p>
-                SwiftUI • Spring • PostgreSQL
-              </p>
-            </a>
-          </a>
+            <div target="_blank" className="overlay">
+              <div className="tbCell">
+                <h2>Alley (discontinued)</h2>
+                <p>
+                  An iOS App to find other similarly skilled tennis players nearby.
+                </p>
+                <p>
+                  SwiftUI • Spring • PostgreSQL
+                </p>
+              </div>
+            </div>
+          </div>
           <p></p>
         </Col>
         <Col className="project" md="3">
           <p></p>
-          <a href="https://ilcorona.com" target="_blank" className="hovereffect">
+          <div target="_blank" className="hovereffect">
             <Image src={corona} className="rounded " fluid />
-            <a href="https://ilcorona.com" target="_blank" className="overlay">
-              <h2>IL Covid-19 Dashboard</h2>
-              <p>
-                A simple dashboard to view some stats of Covid-19 cases in Illinois. 
-              </p>
-              <p>
-                ReactJS • AWS Lambda • DynamoDB
-              </p>
-            </a>
-          </a>
+            <div target="_blank" className="overlay">
+              <div className="tbCell">
+                <h2>IL Covid-19 Dashboard (discontinued)</h2>
+                <p>
+                  A simple dashboard to view some stats of Covid-19 cases in Illinois. 
+                </p>
+                <p>
+                  ReactJS • AWS Lambda • DynamoDB
+                </p>
+              </div>
+            </div>
+          </div>
           <p></p>
         </Col>
         <Col className="project" md="3">
           <p></p>
-          <a href="https://play.google.com/store/apps/details?id=jyk.footwork&hl=en_US&gl=US" target="_blank" className="hovereffect">
+          <div target="_blank" className="hovereffect">
             <Image src={footwork} className="rounded " fluid />
             <a href="https://play.google.com/store/apps/details?id=jyk.footwork&hl=en_US&gl=US" target="_blank" className="overlay">
-              <h2>Footwork</h2>
-              <p>
-                An Android App to help shadow the footwork done in actual tennis points.
-              </p>
-              <p>
-                Android (Java)
-              </p>
+              <div className="tbCell">
+                <h2>Footwork</h2>
+                <p>
+                  An Android App to help shadow the footwork done in actual tennis points.
+                </p>
+                <p>
+                  Android (Java)
+                </p>
+              </div>
             </a>
-          </a>
+          </div>
           <p></p>
         </Col>
         <Col></Col>
